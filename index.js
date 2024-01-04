@@ -43,7 +43,7 @@ const options = {
         },
       servers:[
         {
-            url: 'https://benr3433-information-security-assignment.azurewebsites.net/'
+            url: 'https://deen2345.azurewebsites.net/'
             //remember to change current ip address in MongoDB Network Access List
             //url: 'http://localhost:3000'
         }
@@ -56,7 +56,7 @@ const options = {
   app.use('/swagger', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 
 
- mongoose.connect('mongodb+srv://fatin:fatin8501@cluster0.v6mchhf.mongodb.net/vms')
+ mongoose.connect('mongodb+srv://deenbrembo:hafizudin202@cluster0.vlncwtu.mongodb.net/')
  .then(()=>{
      console.log('connected to mongodb')
      app.listen(port,() => {
