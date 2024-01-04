@@ -56,7 +56,7 @@ const options = {
   app.use('/swagger', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 
 
- mongoose.connect('mongodb+srv://deenbrembo:hafizudin202@cluster0.vlncwtu.mongodb.net/WJ.VMS')
+ mongoose.connect('mongodb+srv://deenbrembo:hafizudin202@cluster0.vlncwtu.mongodb.net/vms')
  .then(()=>{
      console.log('connected to mongodb')
      app.listen(port,() => {
